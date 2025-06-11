@@ -30,8 +30,8 @@ const navs = () => {
 
 const Navbar = () => {
   return (
-    <div className="">
-      <div className="flex  justify-center mt-10 items-center">
+    <div className="bg-[#191624] h-full md:w-64 ">
+      <div className="flex  justify-center pt-10 items-center">
         <img src={logo} className="w-24" alt="logo" />
       </div>
       <div className="md:block p-3">{navs()}</div>
