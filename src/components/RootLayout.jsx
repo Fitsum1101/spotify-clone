@@ -13,7 +13,7 @@ const RootLayout = () => {
         <Outlet />
       </div>
       {/* h-[calc(100vh-72px)] */}
-      <div className="bg-[#161552] xl:sticky relative top-0 h-screen flex flex-col ">
+      <div className="bg-[#161552] xl:sticky relative top-0 h-screen  flex flex-col ">
         <TopChart />
         <TopArtist />
       </div>

@@ -11,10 +11,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <RootLayout />,
     errorElement: <Error />,
+    loader: disCoverLoader,
+    id: "layouData",
     children: [
       {
         index: true,
-        loader:disCoverLoader,
         element: <Discover />,
       },
       {
